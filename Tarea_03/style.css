@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+body {
+  font-family: 'Lato', Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: 	#ffeef2;
+  color: #333;
+  line-height: 1.6;
+  position: static;
+}
+
+
+#cabecera {
+  width: 300px;
+  height: auto;
+  padding: 20px 10px;
+  margin: 10px auto 0;
+  border: 2px solid #003366;
+  border-radius: 10px;
+  background: #add8e6;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  color: #003366;
+  text-align: center;
+
+  
+  font-size: 20px;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 0;
+}
+
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #003366;
+  text-shadow: 0px 3px 5px white;
+
+
+}
+
+
+h2 {
+  color: #003366;
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+
+p {
+  font-size: 1rem;
+  color: #666;
+}
+
+
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+
+img {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 1rem auto;
+}
+
+
+a {
+  color: #003366;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+
+.destacado {
+  font-weight: bold;
+  color: darkred;
+  background-color: #fdf3f3;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+nav ul li a {
+  padding: 0.5rem 1rem;
+  background-color: #003366;
+  color: white;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #0055a5;
+}
+
